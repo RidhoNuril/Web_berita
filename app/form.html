@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>lks</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/modernizr.js -->
+    <script src="scripts/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body>
+    <main>
+        
+        <header>
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <img src="images/Logo_of_Twitter.svg.png" alt="">
+                    </div>
+                    <div class="menu">
+                        <div class="menu_trigger d-block d-lg-none">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul class="d-flex">
+                            <li><a class="active" href="/">Dashboard</a></li>
+                            <li><a href="">Admin</a></li>
+                            <li><a href="">Kategori Berita</a></li>
+                            <li><a href="">Iklan</a></li>
+                            <li><button type="button"><i class="fa-solid fa-sign-out"></i>Logout</button></li>
+                            <li class="d-flex d-lg-none menu_close_trigger"><i class="fa-solid fa-rectangle-xmark"></i>Close</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="body">
+            <div class="content">
+                <div class="container">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                        <li class="breadcrumb-item active"><a href="">Users</a></li>
+                        <li class="breadcrumb-item active">aUsers</li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h1 class="title">Add Users</h1>
+                        </div>
+                        <div class="col-sm-6 d-flex justify-content-sm-end">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-sign-out"></i>Back</button>
+                              </div>
+                        </div>
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-sm btn-outline-success"><i class="fa-solid fa-save"></i>Save</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- build:js scripts/vendor.js -->
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+    <script>
+        $(document).ready(function(){
+            $('#example').DataTable();
+        });
+    </script>
+</body>
+
+</html>

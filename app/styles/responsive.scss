@@ -1,0 +1,70 @@
+@media (max-width: 991.98px){
+    body{
+        main{
+            header{
+                .menu{
+                    ul{
+                        display: block !important;
+                        position: fixed;
+                        top: 0;
+                        right: -60%;
+                        width: 60%;
+                        height: 100vh;
+                        background: #179cf0;
+                        padding-top: 60px;
+                        text-align: right;
+                        transition: .5s ease right;
+                        li{
+                            a{
+                                color: #fff;
+                                display: block;
+                                padding: 8px 30px;
+                                &:hover{
+                                    color: aqua;
+                                }
+                                &.active{
+                                    color: aqua;
+                                }
+                            }
+                            button{
+                                margin-right: 30px;
+                                margin-top: 10px;
+                            }
+                            &.menu_close_trigger{
+                                position: absolute;
+                                top: 15px;
+                                left: 30px;
+                                color: #fff;
+                                align-items: center;
+                                cursor: pointer;
+                                i{
+                                    font-size: 32px;
+                                    margin-right: 7px;
+                                }
+                            }
+                        }
+                        &.active{
+                            right: 0;
+                            transition: .5s ease right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    body{
+        main{
+            header{
+                .menu{
+                    ul{
+                        width: 100%;
+                        right: -100%;
+                    }
+                }
+            }
+        }
+    }
+}
