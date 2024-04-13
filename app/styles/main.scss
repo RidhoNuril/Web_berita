@@ -712,7 +712,7 @@ main {
                 }
 
                 h1.title {
-                    font-size: 28px;
+                    font-size: 48px;
                     color: #000;
                     font-weight: bold;
                     transition: .5s ease all;
@@ -728,6 +728,12 @@ main {
                         cursor: pointer;
                         transition: .5s ease all;
                     }
+                }
+
+                h1.preTitle{
+                    font-size: 24px;
+                    line-height: 1.25;
+                    color: #4b5563;
                 }
 
                 .main-image {
