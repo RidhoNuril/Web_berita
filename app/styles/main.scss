@@ -57,17 +57,17 @@ main {
                         font-weight: bold;
 
                         &:hover {
-                            color: #004877;
+                            color: #000;
                         }
 
                         &.active {
-                            color: #004877;
+                            color: #000;
                         }
                     }
 
                     button {
                         border: none;
-                        background-color: #179cf0;
+                        background-color: #004877;
                         border-radius: 4px;
                         color: #fff;
                     }
